@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Contato</title>
+    <link rel="stylesheet" href="AdicionarContato.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Alterar Informações de Contato</h1>
+        </header>
+        <main>
+            <form id="add-contact-form">
+
+                <label for="idContato">IdContato:</label>
+                <input type="text" id="idContato" name="idContato" required>
+
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit">Adicionar</button>
+
+            </form>
+        </main>
+    </div>
+    <div class="hamburger" id="hamburger">
+        &#9776;
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

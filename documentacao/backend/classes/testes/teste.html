@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //está removendo um item, sem tirar o indice incial, do contato. Com o método delete
+        vet = [
+            {id : 0, nome : 'a'},
+            {id : 1, nome : 'b'},
+            {id : 2, nome : 'c'},
+        ];
+
+        console.log(vet);
+        delete vet[1];
+        console.log(vet);
+
+        vet.filter((item) => item.id == 2);
+
+        
+    </script>
+    <!--
+        <script type="module" src="./classes/Usuario.js"></script>
+    -->
+</body>
+</html>
