@@ -94,6 +94,28 @@ button:hover {
     display: none;
 }
 
+#logout-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#logout-btn:hover {
+    background-color: red;
+}
+
+header {
+    position: relative;
+}
+
+
 @media (max-width: 5000px) {
     .sidebar {
         position: fixed;

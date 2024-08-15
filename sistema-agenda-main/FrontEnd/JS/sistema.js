@@ -31,7 +31,7 @@ export async function logar(dados) {
 }
 export function deslogar() {
     localStorage.removeItem('idUsuario');
-    idUsuario = null;
+    //idUsuario = null;
     window.location.href = 'login.html';
 }
 export function verificarLogin() {

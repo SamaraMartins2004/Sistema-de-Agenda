@@ -8,3 +8,8 @@ btnEnviar.addEventListener('click', (e) => {
     const senha = document.getElementById('password').value;
     logar({ login: login, senha: senha })
 })
+
+    // Script para o botão de logout
+    document.getElementById('logout-btn').addEventListener('click', function deslogar() {
+        window.location.href = 'login.html'; 
+    });
