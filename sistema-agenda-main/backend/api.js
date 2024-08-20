@@ -83,6 +83,7 @@ app.get('/contatos/:idUsuario', (req, res) => {
     }
 })
 
+
 //Buscar um contato de um usuário
 app.get('/contato/:idUsuario/:idContato', (req, res) => {
     try {

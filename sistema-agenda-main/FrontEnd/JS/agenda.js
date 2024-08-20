@@ -1,4 +1,4 @@
-import { verificarLogin, getUsuario, deslogar } from "./sistema.js";
+import { verificarLogin, getUsuario, deslogar,} from "./sistema.js";
 
 // Verificar se o usuário está logado
 if (verificarLogin() == false){
@@ -14,7 +14,6 @@ async function inicializarAgenda() {
         h1.innerHTML = `Agenda de ${usuario.nome}`;
     }
 }
-
 
 // Iniciar a agenda
 inicializarAgenda();
