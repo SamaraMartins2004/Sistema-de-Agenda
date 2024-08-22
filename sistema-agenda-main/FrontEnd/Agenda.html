@@ -16,25 +16,26 @@
             <button id="logout-btn">Sair</button>
         </header>
         <main>
-            <ul id="contact-list">
-                <!-- Contatos serão inseridos aqui dinamicamente -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                        <th>Endereço</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>José</td>
+                        <td>(32)9999-9999</td>
+                        <td>Rua x</td>
+                    </tr>
+                </tbody>
+            </table>
 
-                <table>
-                    <thead>
-                        <tr><th>Nome</th><th>Telefone</th><th>Endereço</th></tr>
-                    </thead>
-                    <tbody>
-                        <tr><td>José</td><td>(32)9999-9999</td><td>Rua x</td></tr>
-                    </tbody>
-                </table>
-                
-                <!-- Mais contatos -->
-            </ul>
             <button id="add-contact-btn" style="display: none;"> <a href="AdicionarContato.html">Adicionar Contato</a></button>
         </main>
-    </div>
-    <div class="hamburger" id="hamburger">
-        &#9776;
     </div>
     <script src="./JS/agenda.js" type="module"></script>
 

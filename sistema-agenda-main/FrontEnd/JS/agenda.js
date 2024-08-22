@@ -18,18 +18,23 @@ async function inicializarAgenda() {
 
         let linhas = '';
         contatos.forEach((contato) => {
-            linhas = linhas + 
-            `<tr>
+            if (contato != null) {
+                linhas = linhas +
+                    `<tr>
                 <td>${contato.nome}</td>
                 <td>${contato.telefone}</td>
+                <td>${contato.endereco}</td>
+                <td>${contato.email}</td>
             </tr>`;
+            }
+
         })
         /*
         buscar as informações dos contatos e criar uma linha de tabela para cada contato
         */
         const tbody = document.querySelector('tbody');
         tbody.innerHTML = linhas;
-        
+
     }
 }
 
